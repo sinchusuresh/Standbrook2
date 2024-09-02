@@ -1,0 +1,91 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 10rem;
+    width: 100%;
+  }
+  
+  .nav-container > .nav-link {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+  
+  .home-section {
+    height: 80vh;
+    background: url("./images/seaimage.png"), url("./images/Rectangle\ 7@2x.png");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+  }
+  
+  .home-section > .title-container > .Main-title {
+    font-size: 20px;
+    font-family: "Vollkorn", Regular;
+    text-align: center;
+    color: white;
+  }
+  
+  .home-section > .title-container > .home-title {
+    padding: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: white;
+    font-size: 55px;
+    line-height: 5px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  .home-section > .title-container > .title-para {
+    padding: 0;
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    width: 640px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .home-section > .title-container > .title-para2 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    width: 923px;
+    height: 91px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button-title {
+    background: linear-gradient(to right, #00aa9e, #004d47);
+    padding: 10px;
+    border: none;
+    color: white;
+  }
+  
+  .bottom-img {
+    position: relative;
+    bottom: -100px;
+    background-image: url("./images/Group\ 11.png");
+    width: 100%;
+    height: 22vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+  }
